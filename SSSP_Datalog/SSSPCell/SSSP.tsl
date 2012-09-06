@@ -1,0 +1,41 @@
+Cell Struct SSSPCell
+{
+	double rankValue;	
+	double storedRankValue;
+	
+	bool status;
+	List<long> neighbors;
+}
+
+struct StartSSSPMessage
+{
+	long node_count;
+	double thresholdFactor;
+}
+
+struct RankUpdatingMessage
+{
+	long senderId;
+	double rankValueP;
+	List<long> recipients;
+}
+
+protocol StartSSSP
+{
+	Type: Syn;
+	Request: StartSSSPMessage;
+	Response: void;
+}
+
+protocol RankUpdating
+{
+	Type: Syn;
+	Request: RankUpdatingMessage;
+	Response: void;
+}
+
+slave SSSPSlave
+{
+	protocol StartSSSP;
+	protocol RankUpdating;
+}

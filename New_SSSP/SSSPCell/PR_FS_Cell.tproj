@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{cb006715-620c-4e26-8352-fb0fa2f5fb36}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Trinity.Data</RootNamespace>
+    <AssemblyName>Trinity.Data</AssemblyName>
+    <Name>PR_FS_Cell</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="SSSP.tsl">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <DMScript Include="**\*.tsl" />
+  </ItemGroup>
+  <Target Name="Build">
+    <Error Condition="'$(TrinityPath)' == ''" Text="TrinityPath not found." />
+    <Error Condition="!Exists('$(TrinityPath)\Trinity.Shell.exe')" Text="Trinity.Shell.exe not found in '$(TrinityPath)'" />
+    <Exec Command="&quot;$(TrinityPath)\Trinity.Shell.exe&quot; --BuildDataModelingProject --BuildDataModelingProjectWithDebugFeatures --ProjectRoot &quot;$(MSBuildProjectDirectory)&quot; --ScriptList &quot;@(DMScript)&quot; --OutputPath &quot;$(OutputPath) &quot;" Condition="$(DebugSymbols) == true " />
+    <Exec Command="&quot;$(TrinityPath)\Trinity.Shell.exe&quot; --BuildDataModelingProject --ProjectRoot &quot;$(MSBuildProjectDirectory)&quot; --ScriptList &quot;@(DMScript)&quot; --OutputPath &quot;$(OutputPath) &quot;" Condition="$(DebugSymbols) == false " />
+  </Target>
+</Project>

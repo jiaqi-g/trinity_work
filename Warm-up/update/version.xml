@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Trinity>
+  <section name="Version">
+    <entry name="Rev">3139</entry>
+    <entry name="Notes">Release Notes:
+
+1. Revised Trinity Shell command highlight component.
+
+2. TSL script: Added struct layout optimization feature in the TSL editor. 
+
+3. TSL script: Added �Cell Type� checking feature in the debug mode.
+</entry>
+  </section>
+  <section name="Files">
+    <entry name="file">Trinity.C.dll</entry>
+    <entry name="file">Trinity.Core.dll</entry>
+    <entry name="file">Trinity.Shell.exe</entry>
+    <entry name="file">Demo.zip</entry>
+    <entry name="file">TrinityManual.pdf</entry>
+    <entry name="file">TrinityUpdater.exe</entry>
+  </section>
+  <section name="Targets">
+    <entry name="Trinity.C.dll">%trinityhome%\bin</entry>
+    <entry name="Trinity.Core.dll">%trinityhome%\bin</entry>
+    <entry name="Trinity.Shell.exe">%trinityhome%\bin</entry>
+    <entry name="Demo.zip">%trinityhome%\Examples</entry>
+    <entry name="TrinityManual.pdf">%trinityhome%\doc</entry>
+    <entry name="TrinityUpdater.exe">%trinityhome%\bin</entry>
+  </section>
+  <section name="Check">
+    <entry name="Trinity.C.dll">5b4b7283c5770dc4e0dad7769bd5a7fe</entry>
+    <entry name="Trinity.Core.dll">7126cb77ebbf3a09b85da1750afc23dd</entry>
+    <entry name="Trinity.Shell.exe">bd6a0f12281149675c3a049a6827de9a</entry>
+    <entry name="Demo.zip">2af5d12d0ee09dd791094555f32eaadd</entry>
+    <entry name="TrinityManual.pdf">3d939a09d92a10b9b604260f5a1dd1cd</entry>
+    <entry name="TrinityUpdater.exe">a4c0173e5902e2c55c814ab733a2ce8d</entry>
+  </section>
+</Trinity>

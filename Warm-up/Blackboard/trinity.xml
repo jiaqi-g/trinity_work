@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Trinity>
+  <section name="Application">
+    <entry name="ConfigOutputOn">true</entry>
+    <entry name="CurrentRunningMode">Client</entry>
+    <entry name="ExperimentalFeatureOn">false</entry>
+  </section>
+  <section name="Network">
+    <entry name="ClientBufferSize">1048576</entry>
+    <entry name="ClientMaxBufferSize">134217728</entry>
+    <entry name="ServerSocketBufferSize">8192</entry>
+    <entry name="ClientSocketBufferSize">8192</entry>
+    <entry name="ClientMaxConn">2</entry>
+    <entry name="ServerMaxConn">512</entry>
+    <entry name="ServerMaxAcceptOps">512</entry>
+    <entry name="PreferedNetworkMask"></entry>
+  </section>
+  <section name="Blackboard">
+    <entry name="HostName">win-buf8up11aro</entry>
+    <entry name="Port">7726</entry>
+    <entry name="WorkingDirectory">D:\Trinity\Examples\Demo\Warm-up\Blackboard\</entry>
+    <entry name="LoggingLevel">Warning</entry>
+  </section>
+  <section name="Protocol">
+    <entry name="ServerType">Slave</entry>
+  </section>
+  <section name="Slaves">
+    <entry name="Slave" WorkingDirectory="D:\Trinity\Examples\Demo\Warm-up\" LoggingLevel="Info">win-buf8up11aro:5304</entry>
+  </section>
+  <section name="Proxies" />
+  <section name="DNS" />
+  <section name="rDNS" />
+  <section name="Storage">
+    <entry name="MemoryPoolSize">268435456</entry>
+    <entry name="LargeObjectThreshold">10485760</entry>
+    <entry name="MaxLargeObjectCount">128</entry>
+    <entry name="IndexMemoryTrunkSize">33554432</entry>
+    <entry name="StorageRoot">D:\Trinity\Examples\Demo\Warm-up\storage\</entry>
+  </section>
+  <section name="Internal">
+    <entry name="CreateConnectionWhenUnavailable">false</entry>
+    <entry name="NeighborAsList">true</entry>
+    <entry name="GraphBufferSize">134217728</entry>
+    <entry name="XHashSetGroupSize">4</entry>
+  </section>
+  <section name="Logging">
+    <entry name="LoggingLevel">Info</entry>
+  </section>
+  <section name="RDF">
+    <entry name="TypePredicateName">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</entry>
+  </section>
+</Trinity>

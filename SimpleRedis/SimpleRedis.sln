@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRedis", "SimpleRedis\SimpleRedis.csproj", "{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}"
+EndProject
+Project("{FD8A01E6-12A1-461A-AF0E-51EBE962703F}") = "SimpleRedisTsl", "SimpleRedisTsl\SimpleRedisTsl.tproj", "{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Debug|x64.ActiveCfg = Debug|x64
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Debug|x64.Build.0 = Debug|x64
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Debug|x86.ActiveCfg = Debug|x86
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Debug|x86.Build.0 = Debug|x86
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Release|x64.ActiveCfg = Release|x64
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Release|x64.Build.0 = Release|x64
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Release|x86.ActiveCfg = Release|x86
+		{7206B7BA-ECD5-44C4-9573-6AC9CC8A9DF6}.Release|x86.Build.0 = Release|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Debug|x64.ActiveCfg = Debug|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Debug|x64.Build.0 = Debug|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Debug|x86.ActiveCfg = Debug|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Debug|x86.Build.0 = Debug|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Release|x64.ActiveCfg = Release|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Release|x64.Build.0 = Release|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Release|x86.ActiveCfg = Release|x86
+		{CB8C942D-0AB0-45EB-A827-5028E3A72FBE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

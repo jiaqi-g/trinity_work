@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR_FS", "SSSP\PR_FS.csproj", "{649AC079-F63C-401C-8DB2-D648BD08FF60}"
+EndProject
+Project("{FD8A01E6-12A1-461A-AF0E-51EBE962703F}") = "PR_FS_Cell", "SSSPCell\PR_FS_Cell.tproj", "{CB006715-620C-4E26-8352-FB0FA2F5FB36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Debug|x64.ActiveCfg = Debug|x64
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Debug|x64.Build.0 = Debug|x64
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Debug|x86.ActiveCfg = Debug|x86
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Debug|x86.Build.0 = Debug|x86
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Release|x64.ActiveCfg = Release|x64
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Release|x64.Build.0 = Release|x64
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Release|x86.ActiveCfg = Release|x86
+		{649AC079-F63C-401C-8DB2-D648BD08FF60}.Release|x86.Build.0 = Release|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Debug|x64.ActiveCfg = Debug|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Debug|x64.Build.0 = Debug|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Debug|x86.ActiveCfg = Debug|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Debug|x86.Build.0 = Debug|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Release|x64.ActiveCfg = Release|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Release|x64.Build.0 = Release|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Release|x86.ActiveCfg = Release|x86
+		{CB006715-620C-4E26-8352-FB0FA2F5FB36}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

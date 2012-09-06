@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleSearch", "PeopleSearch\PeopleSearch.csproj", "{4CF22546-074E-480B-9FAA-C511AA56B26C}"
+EndProject
+Project("{FD8A01E6-12A1-461A-AF0E-51EBE962703F}") = "PeopleSearchTsl", "PeopleSearchTsl\PeopleSearchTsl.tproj", "{14080321-D17C-4EA1-8816-C40DEC1DEACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Debug|x64.ActiveCfg = Debug|x64
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Debug|x64.Build.0 = Debug|x64
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Debug|x86.ActiveCfg = Debug|x64
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Debug|x86.Build.0 = Debug|x64
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Release|x64.ActiveCfg = Release|x64
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Release|x64.Build.0 = Release|x64
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Release|x86.ActiveCfg = Release|x86
+		{4CF22546-074E-480B-9FAA-C511AA56B26C}.Release|x86.Build.0 = Release|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Debug|x64.ActiveCfg = Debug|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Debug|x64.Build.0 = Debug|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Debug|x86.ActiveCfg = Debug|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Debug|x86.Build.0 = Debug|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Release|x64.ActiveCfg = Release|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Release|x64.Build.0 = Release|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Release|x86.ActiveCfg = Release|x86
+		{14080321-D17C-4EA1-8816-C40DEC1DEACA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
